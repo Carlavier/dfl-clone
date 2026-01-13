@@ -16,7 +16,7 @@ export default function AcceleratorPage() {
 			{/* Hero Section */}
 			<section className="grid md:grid-cols-2 gap-12 items-center fade-in-up">
 				<div className="space-y-6">
-					<h1 className="text-4xl md:text-6xl font-black tracking-tighter leading-tight glow-text text-black dark:text-white">
+					<h1 className="text-4xl md:text-6xl font-black tracking-tighter leading-tight glow-text ">
 						A Data-Backed Accelerator for <br />
 						<span className="text-transparent bg-clip-text bg-linear-to-r from-primary to-emerald-500">
 							AI-Fintech Builders
@@ -42,7 +42,7 @@ export default function AcceleratorPage() {
 			{/* Target Areas */}
 			<section className="space-y-12">
 				<div className="text-center max-w-3xl mx-auto space-y-4">
-					<h2 className="text-3xl md:text-4xl font-bold text-black dark:text-white">Designed for Builders In</h2>
+					<h2 className="text-3xl md:text-4xl font-bold ">Designed for Builders In</h2>
 					<p className="text-lg text-muted-foreground">We focus on high-impact areas where data and regulation intersect.</p>
 				</div>
 
@@ -52,7 +52,7 @@ export default function AcceleratorPage() {
 							key={area}
 							className="group p-6 rounded-2xl border border-black/5 dark:border-white/5 bg-card/30 backdrop-blur-sm hover:bg-primary/5 transition-colors text-center"
 						>
-							<h3 className="text-lg font-bold text-black dark:text-white group-hover:text-primary transition-colors">
+							<h3 className="text-lg font-bold  group-hover:text-primary transition-colors">
 								{area}
 							</h3>
 						</div>
@@ -63,7 +63,7 @@ export default function AcceleratorPage() {
 			{/* What Founders Get */}
 			<section className="group relative rounded-[2.5rem] overflow-hidden border border-white/5 bg-card/50 backdrop-blur-sm shadow-2xl p-8 md:p-16 space-y-12">
 				<div className="text-center max-w-3xl mx-auto">
-					<h2 className="text-3xl md:text-5xl font-bold mb-6 text-black dark:text-white">What Founders Get</h2>
+					<h2 className="text-3xl md:text-5xl font-bold mb-6 ">What Founders Get</h2>
 					<p className="text-lg text-muted-foreground">
 						We provide the unfair advantages you need to go from prototype to pilot.
 					</p>
@@ -90,7 +90,7 @@ export default function AcceleratorPage() {
 							</svg>
 						</div>
 						<div>
-							<h3 className="text-xl font-bold mb-2 text-black dark:text-white">Data Access</h3>
+							<h3 className="text-xl font-bold mb-2 ">Data Access</h3>
 							<p className="text-muted-foreground">
 								Direct access to the Financial Data Warehouse - governed, sanitized, and ready for model training.
 							</p>
@@ -120,7 +120,7 @@ export default function AcceleratorPage() {
 							</svg>
 						</div>
 						<div>
-							<h3 className="text-xl font-bold mb-2 text-black dark:text-white">Compute &amp; Validation</h3>
+							<h3 className="text-xl font-bold mb-2 ">Compute &amp; Validation</h3>
 							<p className="text-muted-foreground">
 								High-performance GPU compute resources, model validation frameworks, and sandbox support.
 							</p>
@@ -146,7 +146,7 @@ export default function AcceleratorPage() {
 							</svg>
 						</div>
 						<div>
-							<h3 className="text-xl font-bold mb-2 text-black dark:text-white">Regulator Access</h3>
+							<h3 className="text-xl font-bold mb-2 ">Regulator Access</h3>
 							<p className="text-muted-foreground">
 								Structured office hours with regulators every 4 weeks to ensure compliance from day one.
 							</p>
@@ -176,7 +176,7 @@ export default function AcceleratorPage() {
 							</svg>
 						</div>
 						<div>
-							<h3 className="text-xl font-bold mb-2 text-black dark:text-white">Demo Day</h3>
+							<h3 className="text-xl font-bold mb-2 ">Demo Day</h3>
 							<p className="text-muted-foreground">
 								Showcase your pilot to IFC representatives, global partners, and potential investors.
 							</p>
@@ -187,7 +187,7 @@ export default function AcceleratorPage() {
 
 			{/* CTA */}
 			<section className="text-center space-y-8 py-12">
-				<h2 className="text-3xl md:text-4xl font-bold glow-text text-black dark:text-white">Ready to Accelerate?</h2>
+				<h2 className="text-3xl md:text-4xl font-bold glow-text ">Ready to Accelerate?</h2>
 				<p className="text-lg text-muted-foreground max-w-2xl mx-auto">
 					Join the next cohort of fintech innovators and build the future of finance in Da Nang.
 				</p>
