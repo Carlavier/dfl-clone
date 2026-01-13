@@ -61,7 +61,7 @@ export default function SandboxPage() {
 				{/* Key Features Grid */}
 				<div className="space-y-12">
 					<div className="text-center max-w-3xl mx-auto space-y-4">
-						<h2 className="text-4xl md:text-5xl font-bold text-black dark:text-white">Safe Testing Ground</h2>
+						<h2 className="text-4xl md:text-5xl font-bold ">Safe Testing Ground</h2>
 						<p className="text-xl text-muted-foreground">
 							Test your innovations in a live market environment with regulatory guidance.
 						</p>
@@ -86,7 +86,7 @@ export default function SandboxPage() {
 									<path d="m9 12 2 2 4-4" />
 								</svg>
 							</div>
-							<h3 className="text-2xl font-bold text-black dark:text-white">SBV Oversight</h3>
+							<h3 className="text-2xl font-bold ">SBV Oversight</h3>
 							<p className="text-muted-foreground leading-relaxed">
 								Direct supervision and regular feedback loops with the State Bank of Vietnam ensure your
 								product meets compliance standards from day one.
@@ -112,7 +112,7 @@ export default function SandboxPage() {
 									<line x1="12" x2="12" y1="17" y2="21" />
 								</svg>
 							</div>
-							<h3 className="text-2xl font-bold text-black dark:text-white">Live Testing</h3>
+							<h3 className="text-2xl font-bold ">Live Testing</h3>
 							<p className="text-muted-foreground leading-relaxed">
 								Deploy to real users in a controlled environment. Validate your business model and
 								technology with actual market data.
@@ -138,7 +138,7 @@ export default function SandboxPage() {
 									<line x1="12" y1="22.08" x2="12" y2="12" />
 								</svg>
 							</div>
-							<h3 className="text-2xl font-bold text-black dark:text-white">New Frontiers</h3>
+							<h3 className="text-2xl font-bold ">New Frontiers</h3>
 							<p className="text-muted-foreground leading-relaxed">
 								Specifically designed for emerging technologies including Digital Assets, P2P Lending, and
 								Blockchain-based financial services.
@@ -150,7 +150,7 @@ export default function SandboxPage() {
 				{/* Process Section */}
 				<div className="grid md:grid-cols-2 gap-12 items-center">
 					<div className="space-y-8">
-						<h2 className="text-4xl md:text-5xl font-bold text-black dark:text-white leading-tight">
+						<h2 className="text-4xl md:text-5xl font-bold  leading-tight">
 							The Sandbox Process
 						</h2>
 
@@ -160,7 +160,7 @@ export default function SandboxPage() {
 									1
 								</div>
 								<div className="space-y-2">
-									<h3 className="text-xl font-bold text-black dark:text-white">Application &amp; Review</h3>
+									<h3 className="text-xl font-bold ">Application &amp; Review</h3>
 									<p className="text-muted-foreground">
 										Submit your proposal. We evaluate based on innovation, consumer benefit, and readiness.
 									</p>
@@ -172,7 +172,7 @@ export default function SandboxPage() {
 									2
 								</div>
 								<div className="space-y-2">
-									<h3 className="text-xl font-bold text-black dark:text-white">Testing Parameters</h3>
+									<h3 className="text-xl font-bold ">Testing Parameters</h3>
 									<p className="text-muted-foreground">
 										Define scope, duration, and safeguards. Set clear KPIs for success.
 									</p>
@@ -184,7 +184,7 @@ export default function SandboxPage() {
 									3
 								</div>
 								<div className="space-y-2">
-									<h3 className="text-xl font-bold text-black dark:text-white">Live Deployment</h3>
+									<h3 className="text-xl font-bold ">Live Deployment</h3>
 									<p className="text-muted-foreground">
 										Launch to a limited user base under supervision. Regular reporting and monitoring.
 									</p>
@@ -196,7 +196,7 @@ export default function SandboxPage() {
 									4
 								</div>
 								<div className="space-y-2">
-									<h3 className="text-xl font-bold text-black dark:text-white">Exit &amp; Scale</h3>
+									<h3 className="text-xl font-bold ">Exit &amp; Scale</h3>
 									<p className="text-muted-foreground">
 										Upon successful completion, receive authorization to scale operations across Vietnam.
 									</p>
@@ -218,7 +218,7 @@ export default function SandboxPage() {
 				{/* CTA */}
 				<div className="bg-emerald-900/10 dark:bg-emerald-900/20 rounded-[2.5rem] p-12 md:p-20 text-center space-y-8 border border-emerald-500/20 shadow-xl">
 					<div className="max-w-3xl mx-auto space-y-6">
-						<h2 className="text-3xl md:text-5xl font-bold text-black dark:text-white">Ready to Innovate Safely?</h2>
+						<h2 className="text-3xl md:text-5xl font-bold ">Ready to Innovate Safely?</h2>
 						<p className="text-xl text-muted-foreground">
 							Apply for the Regulatory Sandbox and pioneer the future of finance in a secure environment.
 						</p>
