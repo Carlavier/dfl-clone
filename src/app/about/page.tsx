@@ -19,7 +19,7 @@ export default function AboutPage() {
 
   return (
     <div className="max-w-7xl mx-auto px-4 md:px-8 pt-40 pb-20 space-y-32">
-      
+
       {/* Hero / Intro */}
       <div className="text-center space-y-6 max-w-4xl mx-auto fade-in-up">
         <h1 className="text-5xl md:text-6xl font-black tracking-tighter glow-text ">
@@ -45,16 +45,16 @@ export default function AboutPage() {
             </div>
             <div className="relative overflow-hidden h-full min-h-75 md:min-h-auto order-1 md:order-2">
               <div className="absolute inset-0 bg-linear-to-l from-card via-transparent to-transparent z-10"></div>
-              <Image 
-                src="/assets/img/danang-night-bridge.jpg" 
-                alt="Da Nang Night Bridge" 
+              <Image
+                src="/assets/img/danang-night-bridge.jpg"
+                alt="Da Nang Night Bridge"
                 fill
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
             </div>
           </div>
         </div>
-        
+
         {/* DFL Highlights */}
         <div className="grid md:grid-cols-3 gap-6">
           <div className="p-8 rounded-3xl border border-black/5 dark:border-white/5 bg-card/30 backdrop-blur-md hover:bg-card/50 transition-colors group">
@@ -91,7 +91,7 @@ export default function AboutPage() {
           {/* My Ha Tran */}
           <div className="group relative p-10 rounded-[2.5rem] border border-black/5 dark:border-white/5 bg-card/30 backdrop-blur-sm hover:bg-card/50 transition-all duration-500 min-h-75 flex flex-col justify-between">
             <div className="absolute inset-0 bg-linear-to-br from-amber-500/5 via-transparent to-transparent rounded-[2.5rem] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-            
+
             <div className="relative z-10">
               <div className="w-20 h-20 rounded-full mb-6 overflow-hidden border-2 border-black/5 dark:border-white/10 relative">
                 <Image src="/assets/img/my-ha-tran.png" alt="My Ha Tran" fill className="w-full h-full object-cover" />
@@ -112,7 +112,7 @@ export default function AboutPage() {
           {/* Kiel DiGiovanni */}
           <div className="group relative p-10 rounded-[2.5rem] border border-black/5 dark:border-white/5 bg-card/30 backdrop-blur-sm hover:bg-card/50 transition-all duration-500 min-h-75 flex flex-col justify-between">
             <div className="absolute inset-0 bg-linear-to-br from-teal-500/5 via-transparent to-transparent rounded-[2.5rem] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-            
+
             <div className="relative z-10">
               <div className="w-20 h-20 rounded-full mb-6 overflow-hidden border-2 border-black/5 dark:border-white/10 relative">
                 <Image src="/assets/img/kiel_digiovanni.png" alt="Kiel DiGiovanni" fill className="w-full h-full object-cover" />
@@ -133,7 +133,7 @@ export default function AboutPage() {
           {/* Vincenzo Cartelli */}
           <div className="group relative p-10 rounded-[2.5rem] border border-black/5 dark:border-white/5 bg-card/30 backdrop-blur-sm hover:bg-card/50 transition-all duration-500 min-h-75 flex flex-col justify-between">
             <div className="absolute inset-0 bg-linear-to-br from-orange-500/5 via-transparent to-transparent rounded-[2.5rem] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-            
+
             <div className="relative z-10">
               <div className="w-20 h-20 rounded-full mb-6 overflow-hidden border-2 border-black/5 dark:border-white/10 relative">
                 <Image src="/assets/img/vincenzo_cartelli.png" alt="Vincenzo Cartelli" fill className="w-full h-full object-cover" />
@@ -154,7 +154,7 @@ export default function AboutPage() {
           {/* Nikhil Porwal */}
           <div className="group relative p-10 rounded-[2.5rem] border border-black/5 dark:border-white/5 bg-card/30 backdrop-blur-sm hover:bg-card/50 transition-all duration-500 min-h-75 flex flex-col justify-between">
             <div className="absolute inset-0 bg-linear-to-br from-amber-500/5 via-transparent to-transparent rounded-[2.5rem] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-            
+
             <div className="relative z-10">
               <div className="w-20 h-20 rounded-full mb-6 overflow-hidden border-2 border-black/5 dark:border-white/10 relative">
                 <Image src="/assets/img/nikhil_porwal.png" alt="Nikhil Porwal" fill className="w-full h-full object-cover" />
@@ -175,7 +175,7 @@ export default function AboutPage() {
           {/* Luciano Wu */}
           <div className="group relative p-10 rounded-[2.5rem] border border-black/5 dark:border-white/5 bg-card/30 backdrop-blur-sm hover:bg-card/50 transition-all duration-500 min-h-75 flex flex-col justify-between">
             <div className="absolute inset-0 bg-linear-to-br from-blue-500/5 via-transparent to-transparent rounded-[2.5rem] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-            
+
             <div className="relative z-10">
               <div className="w-20 h-20 rounded-full mb-6 overflow-hidden border-2 border-black/5 dark:border-white/10 relative">
                 <Image src="/assets/img/luciano_wu.png" alt="Luciano Wu" fill className="w-full h-full object-cover" />
@@ -201,9 +201,9 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-2 gap-0 min-h-125">
             <div className="relative overflow-hidden h-full min-h-75 md:min-h-auto">
               <div className="absolute inset-0 bg-linear-to-r from-card via-transparent to-transparent z-10"></div>
-              <Image 
-                src="/assets/img/da_nang_vietnam_skyl_ad6bb21a.jpg" 
-                alt="Da Nang Skyline" 
+              <Image
+                src="/assets/img/da_nang_vietnam_skyl_ad6bb21a.jpg"
+                alt="Da Nang Skyline"
                 fill
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
@@ -261,7 +261,7 @@ export default function AboutPage() {
               </div>
             </div>
           </div>
-          
+
           {/* Navigation Arrows */}
           <button onClick={() => scroll('left')} id="prev-slide" className="absolute left-4 top-1/2 -translate-y-1/2 z-10 w-12 h-12 rounded-full bg-black/50 hover:bg-black/70 backdrop-blur-md flex items-center justify-center text-white transition-all opacity-0 group-hover/carousel:opacity-100 md:-left-6 shadow-lg border border-white/10">
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 19l-7-7 7-7"></path></svg>
@@ -272,7 +272,7 @@ export default function AboutPage() {
         </div>
 
         {/* Infrastructure Stats */}
-        <div className="bg-black/5 dark:bg-white/5 rounded-[2.5rem] p-8 md:p-12 border border-black/5 dark:border-white/5">
+        <div className="bg-white rounded-[2.5rem] p-8 md:p-12 border border-black/5 dark:border-white/5">
           <h3 className="text-2xl font-bold  mb-8 text-center">Infrastructure at a Glance</h3>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div className="space-y-2 p-4 rounded-2xl bg-card/30 backdrop-blur-sm hover:scale-105 transition-transform">
@@ -312,7 +312,7 @@ export default function AboutPage() {
             <h3 className="text-3xl md:text-4xl font-bold glow-text  mb-4">Strategic Location in Vietnam</h3>
             <p className="text-lg text-muted-foreground">Da Nang: The Central Hub connecting North and South</p>
           </div>
-          
+
           <div className="relative w-full max-w-[320px] mx-auto mt-8">
             <Image src="/assets/img/vndanangmap.png" alt="Vietnam Map highlighting Da Nang" width={320} height={640} className="w-full h-auto drop-shadow-2xl" />
           </div>
@@ -331,9 +331,9 @@ export default function AboutPage() {
             </div>
             <div className="relative overflow-hidden h-full min-h-75 md:min-h-auto order-1 md:order-2">
               <div className="absolute inset-0 bg-linear-to-l from-card via-transparent to-transparent z-10"></div>
-              <Image 
-                src="/assets/img/modern_futuristic_fi_8e5bd67a.jpg" 
-                alt="Vietnam International Finance Center" 
+              <Image
+                src="/assets/img/modern_futuristic_fi_8e5bd67a.jpg"
+                alt="Vietnam International Finance Center"
                 fill
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
