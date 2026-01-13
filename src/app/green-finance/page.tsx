@@ -11,16 +11,16 @@ export default function GreenFinancePage() {
         {/* Hero Section */}
         <div className="relative rounded-[2.5rem] overflow-hidden border border-white/5 bg-card/50 shadow-2xl min-h-[60vh] flex items-center">
           <div className="absolute inset-0 z-0">
-            <Image 
-              src="/assets/img/greenpattern.jpg" 
-              alt="Green Finance City" 
+            <Image
+              src="/assets/img/greenpattern.jpg"
+              alt="Green Finance City"
               fill
               className="object-cover"
             />
           </div>
-          
+
           <div className="relative z-20 max-w-4xl p-12 md:p-20 space-y-8">
-            
+
             <h1 className="text-5xl md:text-7xl font-black tracking-tighter leading-tight text-white">
               Pioneering <br/>
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-teal-500">
@@ -28,7 +28,7 @@ export default function GreenFinancePage() {
               </span> <br/>
               in Southeast Asia
             </h1>
-            
+
             <p className="text-xl md:text-2xl font-medium text-gray-300 max-w-2xl leading-relaxed">
               We are building the infrastructure for a sustainable economy. From carbon credit markets to ESG scoring, DFL is the hub for green fintech innovation.
             </p>
@@ -82,9 +82,9 @@ export default function GreenFinancePage() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="order-2 md:order-1 relative rounded-[2.5rem] overflow-hidden aspect-square md:aspect-auto md:h-[500px] border border-black/5 dark:border-white/5 shadow-2xl">
             <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/20 to-transparent z-10"></div>
-            <Image 
-              src="/assets/img/da_nang_vietnam_skyl_ad6bb21a.jpg" 
-              alt="Eco City Da Nang" 
+            <Image
+              src="/assets/img/da_nang_vietnam_skyl_ad6bb21a.jpg"
+              alt="Eco City Da Nang"
               fill
               className="object-cover"
             />
@@ -123,7 +123,7 @@ export default function GreenFinancePage() {
               Whether you are building a climate fintech startup or looking to invest in sustainable solutions, DFL is your partner.
             </p>
           </div>
-          
+
           <div className="pt-4">
             <a href="/contact" className="inline-flex items-center justify-center gap-2 text-base font-bold text-white bg-emerald-600 hover:bg-emerald-700 h-14 px-10 rounded-full shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300">
               Get Involved

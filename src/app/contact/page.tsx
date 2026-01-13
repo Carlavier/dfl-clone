@@ -6,7 +6,7 @@ import { useEffect } from 'react';
 export default function Contact() {
   useEffect(() => {
     // Simple obfuscation to prevent basic scraping
-    const link = document.getElementById('contact-email');
+    const link = document.getElementById('contact-email') as HTMLAnchorElement;
     const u = 'contact';
     const d = 'dfl.center';
 
