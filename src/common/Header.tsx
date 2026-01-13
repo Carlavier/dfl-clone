@@ -36,7 +36,7 @@ export default function Header() {
 
   return (
     <div id="navbar-container" className="fixed top-4 left-0 right-0 z-50 flex justify-center transition-transform duration-300 px-4 md:px-8">
-      <nav className="w-full max-w-7xl bg-background/60 backdrop-blur-xl border border-black/5 dark:border-white/10 rounded-md px-4 md:px-8 py-3 flex items-center justify-between shadow-sm shadow-black/5 dark:shadow-black/20">
+      <nav className="w-full max-w-7xl bg-background/60 backdrop-blur-xl border border-black/5 dark:border-white/10 rounded-md px-4 md:px-8 py-3 flex items-center justify-between shadow-sm shadow-black/[0.02] dark:shadow-black/5">
         <div className="flex items-center gap-3">
           <Link href="/" className="block">
             <Image src="/assets/img/dfl_1764273424335.png" alt="DFL Logo" width={120} height={40} className="h-10 w-auto object-contain" />
@@ -44,7 +44,7 @@ export default function Header() {
         </div>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex items-center gap-8 text-sm font-bold text-black dark:text-muted-foreground">
+        <div className="hidden md:flex items-center gap-8 text-sm font-bold text-black dark:text-black">
           {/* About */}
           <div className="relative group">
             <Link href="/about" className="flex items-center gap-1 hover:text-primary transition-colors">
@@ -52,10 +52,10 @@ export default function Header() {
               <svg className="w-4 h-4 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
             </Link>
             <div className="absolute left-1/2 -translate-x-1/2 top-full pt-4 w-48 hidden group-hover:block">
-              <div className="bg-white dark:bg-black/90 border border-black/5 dark:border-white/10 rounded-xl shadow-xl overflow-hidden p-1 backdrop-blur-xl">
-                <Link href="/about" className="block px-4 py-2.5 hover:bg-primary/10 hover:text-primary rounded-lg transition-colors">DFL</Link>
-                <Link href="/vision" className="block px-4 py-2.5 hover:bg-primary/10 hover:text-primary rounded-lg transition-colors">Vision</Link>
-                <Link href="/partners" className="block px-4 py-2.5 hover:bg-primary/10 hover:text-primary rounded-lg transition-colors">Partners & Mentors</Link>
+              <div className="bg-white border border-black/5 dark:border-white/10 rounded-xl shadow-xl overflow-hidden p-1 backdrop-blur-xl">
+                <Link href="/about" className="block px-4 py-2.5 text-black hover:bg-primary/10 hover:text-primary rounded-lg transition-colors">DFL</Link>
+                <Link href="/vision" className="block px-4 py-2.5 text-black hover:bg-primary/10 hover:text-primary rounded-lg transition-colors">Vision</Link>
+                <Link href="/partners" className="block px-4 py-2.5 text-black hover:bg-primary/10 hover:text-primary rounded-lg transition-colors">Partners & Mentors</Link>
               </div>
             </div>
           </div>
@@ -67,10 +67,10 @@ export default function Header() {
               <svg className="w-4 h-4 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
             </button>
             <div className="absolute left-1/2 -translate-x-1/2 top-full pt-4 w-48 hidden group-hover:block">
-              <div className="bg-white dark:bg-black/90 border border-black/5 dark:border-white/10 rounded-xl shadow-xl overflow-hidden p-1 backdrop-blur-xl">
-                <Link href="/accelerator" className="block px-4 py-2.5 hover:bg-primary/10 hover:text-primary rounded-lg transition-colors">Accelerator</Link>
-                <Link href="/sandbox" className="block px-4 py-2.5 hover:bg-primary/10 hover:text-primary rounded-lg transition-colors">Sandbox</Link>
-                <Link href="/blockchain" className="block px-4 py-2.5 hover:bg-primary/10 hover:text-primary rounded-lg transition-colors">Blockchain</Link>
+              <div className="bg-white border border-black/5 dark:border-white/10 rounded-xl shadow-xl overflow-hidden p-1 backdrop-blur-xl">
+                <Link href="/accelerator" className="block px-4 py-2.5 text-black hover:bg-primary/10 hover:text-primary rounded-lg transition-colors">Accelerator</Link>
+                <Link href="/sandbox" className="block px-4 py-2.5 text-black hover:bg-primary/10 hover:text-primary rounded-lg transition-colors">Sandbox</Link>
+                <Link href="/blockchain" className="block px-4 py-2.5 text-black hover:bg-primary/10 hover:text-primary rounded-lg transition-colors">Blockchain</Link>
               </div>
             </div>
           </div>
@@ -82,9 +82,9 @@ export default function Header() {
               <svg className="w-4 h-4 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
             </button>
             <div className="absolute left-1/2 -translate-x-1/2 top-full pt-4 w-56 hidden group-hover:block">
-              <div className="bg-white dark:bg-black/90 border border-black/5 dark:border-white/10 rounded-xl shadow-xl overflow-hidden p-1 backdrop-blur-xl">
-                <Link href="/data" className="block px-4 py-2.5 hover:bg-primary/10 hover:text-primary rounded-lg transition-colors">Market Data</Link>
-                <Link href="/green-finance" className="block px-4 py-2.5 hover:bg-primary/10 hover:text-primary rounded-lg transition-colors">Sustainable Finance</Link>
+              <div className="bg-white border border-black/5 dark:border-white/10 rounded-xl shadow-xl overflow-hidden p-1 backdrop-blur-xl">
+                <Link href="/data" className="block px-4 py-2.5 text-black hover:bg-primary/10 hover:text-primary rounded-lg transition-colors">Market Data</Link>
+                <Link href="/green-finance" className="block px-4 py-2.5 text-black hover:bg-primary/10 hover:text-primary rounded-lg transition-colors">Sustainable Finance</Link>
               </div>
             </div>
           </div>
