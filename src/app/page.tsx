@@ -28,7 +28,7 @@ export default function Home() {
             </h1>
           </div>
 
-          <p className="text-lg md:text-xl font-bold max-w-3xl mx-auto leading-relaxed text-black dark:text-gray-300">
+          <p className="text-lg md:text-xl font-bold max-w-3xl mx-auto leading-relaxed text-black dark:text-black">
             The premier incubator and regulatory sandbox in Central Vietnam. We empower startups to build Innovative Fintech solutions (with a focus in AI, Blockchain, and Sustainable Finance) under a secure and international legal framework with privileged access to the fast growing Vietnamese market.
           </p>
         </div>
@@ -44,8 +44,8 @@ export default function Home() {
               <div className="w-16 h-16 rounded-2xl bg-primary/10 flex items-center justify-center text-primary mb-2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="4" y="4" width="16" height="16" rx="2" /><rect x="9" y="9" width="6" height="6" /><line x1="9" x2="9" y1="1" y2="4" /><line x1="15" x2="15" y1="1" y2="4" /><line x1="9" x2="9" y1="20" y2="23" /><line x1="15" x2="15" y1="20" y2="23" /><line x1="20" x2="23" y1="9" y2="9" /><line x1="20" x2="23" y1="14" y2="14" /><line x1="1" x2="4" y1="9" y2="9" /><line x1="1" x2="4" y1="14" y2="14" /></svg>
               </div>
-              <h2 className="text-4xl md:text-5xl font-bold leading-tight text-black dark:text-white">Strategic Tech Ecosystem</h2>
-              <div className="space-y-4 text-lg leading-relaxed font-medium text-black dark:text-muted-foreground">
+              <h2 className="text-4xl md:text-5xl font-bold leading-tight text-black dark:text-black">Strategic Tech Ecosystem</h2>
+              <div className="space-y-4 text-lg leading-relaxed font-medium text-black dark:text-black">
                 <p><strong className="text-primary">Innovation Engine:</strong> DFL is the core innovation engine of Da Nang&apos;s International Financial Centre (IFC).</p>
                 <p><strong className="text-primary">Fast Deployment:</strong> Being housed within the Tech Park ensures technology is immediately connected to financial capital and preferential tax policies.</p>
                 <p><strong className="text-primary">Accelerated Growth:</strong> Our physical placement shortens the time from initial tech development to full financial deployment.</p>
@@ -79,8 +79,8 @@ export default function Home() {
               <div className="w-16 h-16 rounded-2xl bg-primary/10 flex items-center justify-center text-primary mb-2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
               </div>
-              <h2 className="text-4xl md:text-5xl font-bold leading-tight text-black dark:text-white">Global Trade Gateway</h2>
-              <div className="space-y-4 text-lg leading-relaxed font-medium text-black dark:text-muted-foreground">
+              <h2 className="text-4xl md:text-5xl font-bold leading-tight text-black dark:text-black">Global Trade Gateway</h2>
+              <div className="space-y-4 text-lg leading-relaxed font-medium text-black dark:text-black">
                 <p><strong className="text-primary">Logistical Link:</strong> Situated near the Free Trade Zone (FTZ) and major seaports like Lien Chieu and Tien Sa.</p>
                 <p><strong className="text-primary">Trade Finance Focus:</strong> Designed for innovators developing cross-border payments, supply chain finance, and digitized logistics.</p>
                 <p><strong className="text-primary">Real-World Testing:</strong> Test solutions immediately within the FTZ&apos;s simplified regulatory environment to impact the East-West Economic Corridor.</p>
@@ -96,8 +96,8 @@ export default function Home() {
               <div className="w-16 h-16 rounded-2xl bg-primary/10 flex items-center justify-center text-primary mb-2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
               </div>
-              <h2 className="text-4xl md:text-5xl font-bold leading-tight text-black dark:text-white">Scalable Policy Lab</h2>
-              <div className="space-y-4 text-lg leading-relaxed font-medium text-black dark:text-muted-foreground">
+              <h2 className="text-4xl md:text-5xl font-bold leading-tight text-black dark:text-black">Scalable Policy Lab</h2>
+              <div className="space-y-4 text-lg leading-relaxed font-medium text-black dark:text-black">
                 <p><strong className="text-primary">Sandbox Trials:</strong> As a &quot;policy laboratory,&quot; we trial new financial mechanisms and digital asset sandboxes before they scale.</p>
                 <p><strong className="text-primary">Integrated Solutions:</strong> Companies can create Green Finance for port operations and automated insurance for FTZ businesses.</p>
                 <p><strong className="text-primary">Global Investment:</strong> We attract international funds targeting Asia-Pacific supply chains and the new digital economy.</p>
@@ -117,7 +117,7 @@ export default function Home() {
 
         {/* Partners CTA */}
         <div className="text-center py-8">
-          <Link href="/partners" className="inline-flex items-center justify-center gap-2 text-lg font-medium text-black dark:text-white hover:text-primary transition-colors group">
+          <Link href="/partners" className="inline-flex items-center justify-center gap-2 text-lg font-medium text-black dark:text-black hover:text-primary transition-colors group">
             See our Partners & Mentors
             <svg className="w-5 h-5 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
           </Link>
@@ -126,7 +126,7 @@ export default function Home() {
         {/* CTA Section */}
         <div className="bg-white dark:bg-white/5 rounded-[2.5rem] p-12 md:p-20 text-center space-y-8 shadow-xl border border-black/5 dark:border-white/5">
           <div className="max-w-3xl mx-auto space-y-6">
-            <h2 className="text-3xl md:text-5xl font-bold text-black dark:text-white">Ready to Join?</h2>
+            <h2 className="text-3xl md:text-5xl font-bold text-black dark:text-black">Ready to Join?</h2>
             <p className="text-xl text-muted-foreground">Whether you&apos;re a startup, investor, or partner, there&apos;s a place for you at DFL.</p>
           </div>
 
